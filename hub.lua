@@ -279,7 +279,45 @@ end)
 --_______________________________________________________________________________________________
 
 
-Section:NewButton("HUGE PENIS (skidded by me)(22)", "", function()
+
+Section:NewButton("HUGE PENIS (why did i make this)(10)", "", function()
+
+local plr = game:GetService("Players").LocalPlayer; plr.Character.Humanoid:UnequipTools()
+local Tools = plr.Backpack:GetChildren()
+
+Tools[1].Grip = CFrame.new(-1, 0.3, -1.3) * CFrame.Angles(1.6, math.rad(0), 3.16)
+Tools[1].Parent = plr.Character
+
+Tools[2].Grip = CFrame.new(-2, 0.3, -1.3) * CFrame.Angles(1.6, math.rad(0), 3.16)
+Tools[2].Parent = plr.Character
+
+Tools[3].Grip = CFrame.new(1.5, -1.5, -1.3) * CFrame.Angles(1.6, math.rad(90), 3.16)
+Tools[3].Parent = plr.Character
+
+Tools[4].Grip = CFrame.new(4, -1.5, -1.3) * CFrame.Angles(1.6, math.rad(90), 3.16)
+Tools[4].Parent = plr.Character
+
+Tools[5].Grip = CFrame.new(6.5, -1.5, -1.3) * CFrame.Angles(1.6, math.rad(90), 3.16)
+Tools[5].Parent = plr.Character
+
+Tools[6].Grip = CFrame.new(9, -1.5, -1.3) * CFrame.Angles(1.6, math.rad(90), 3.16)
+Tools[6].Parent = plr.Character
+
+Tools[7].Grip = CFrame.new(11.5, -1.5, -1.3) * CFrame.Angles(1.6, math.rad(90), 3.16)
+Tools[7].Parent = plr.Character
+
+Tools[8].Grip = CFrame.new(14, -1.5, -1.3) * CFrame.Angles(1.6, math.rad(90), 3.16)
+Tools[8].Parent = plr.Character
+
+Tools[9].Grip = CFrame.new(16.5, -1.5, -1.3) * CFrame.Angles(1.6, math.rad(90), 3.16)
+Tools[9].Parent = plr.Character
+
+Tools[10].Grip = CFrame.new(16.5, -1.5, -1.3) * CFrame.Angles(1.6, math.rad(90), 3.16)
+Tools[10].Parent = plr.Character
+
+end)
+
+Section:NewButton("HUGE PENIS (skidded by me)(3-23)", "", function()
 
 local plr = game:GetService("Players").LocalPlayer; plr.Character.Humanoid:UnequipTools()
 local Tools = plr.Backpack:GetChildren()
@@ -337,22 +375,32 @@ Tools[17].Parent = plr.Character
 
  Tools[18].Grip = CFrame.new(38.0, -1.5, -1.3) * CFrame.Angles(1.6, math.rad(90), 3.16)
 Tools[18].Parent =  plr.Character
-
-Tools[19].Grip = CFrame.new(40.5 -1.5, -1.3) * CFrame.Angles(1.6, math.rad(90), 3.16)
-Tools[19].Parent = plr.Character
- 
-Tools[20].Grip = CFrame.new(43.0, -1.5, -1.3) * CFrame.Angles(1.6, math.rad(90), 3.16)
-Tools[20].Parent = plr.Character
- 
-Tools[21].Grip = CFrame.new(45.5, -1.5, -1.3) * CFrame.Angles(1.6, math.rad(90), 3.16)
-Tools[21].Parent = plr.Character
- 
-Tools[22].Grip = CFrame.new(48.0, -1.5, -1.3) * CFrame.Angles(1.6, math.rad(90), 3.16)
-Tools[22].Parent = plr.Character
- 
 end)
 
+Section:NewButton("HUGE PENIS (need to press this also for mega)(same for the other)", "", function()
 
+local plr = game:GetService("Players").LocalPlayer; plr.Character.Humanoid:UnequipTools()
+local Tools = plr.Backpack:GetChildren()
+
+ Tools[1].Grip = CFrame.new(40.5, -1.5, -1.3) * CFrame.Angles(1.6, math.rad(90), 3.16)
+Tools[1].Parent =  plr.Character
+
+ Tools[2].Grip = CFrame.new(43.0, -1.5, -1.3) * CFrame.Angles(1.6, math.rad(90), 3.16)
+Tools[2].Parent =  plr.Character
+
+ Tools[3].Grip = CFrame.new(4.5, -1.5, -1.3) * CFrame.Angles(1.6, math.rad(90), 3.16)
+Tools[3].Parent =  plr.Character
+
+ Tools[3].Grip = CFrame.new(48.0, -1.5, -1.3) * CFrame.Angles(1.6, math.rad(90), 3.16)
+Tools[3].Parent =  plr.Character
+
+ Tools[4].Grip = CFrame.new(50.5, -1.5, -1.3) * CFrame.Angles(1.6, math.rad(90), 3.16)
+Tools[4].Parent =  plr.Character
+
+ Tools[5].Grip = CFrame.new(45.5, -1.5, -1.3) * CFrame.Angles(1.6, math.rad(90), 3.16)
+Tools[5].Parent =  plr.Character
+
+end)
 --_______________________________________________________________________________________________
 
 
